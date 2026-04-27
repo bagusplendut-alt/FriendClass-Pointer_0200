@@ -5,6 +5,10 @@ using namespace std;
 class siswa;
 class orang
 {
-    private:
+private:
     string nama;
-}
+
+public:
+    void setNama(string pNama);
+    friend class siswa;
+};
